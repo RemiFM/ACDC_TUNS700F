@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "+ heatsink (ATS1490-ND)"
+		(property "Description" ""
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TUNS700F28_0_1"
+		(symbol "TUNS700F28_1_1"
 			(rectangle
 				(start -12.7 5.08)
 				(end 12.7 -15.24)
@@ -67,11 +67,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TUNS700F28_1_1"
 			(pin power_in line
 				(at -15.24 0 0)
 				(length 2.54)

@@ -1,0 +1,142 @@
+(footprint "CAP-ECQ-UAAF155K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a25ea72-e26e-4101-8fe3-c81d508057b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-ECQ-UAAF155K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "816e7d97-ff8e-4d10-b07e-036245715f13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -11.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3886a0f9-a266-49e9-9823-e2f32147e6e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -11.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c776c33c-9090-4fa7-81e1-0340106a2e8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -11.16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82fd9151-a303-437d-9baa-7fd2c33a4000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -15.61 -6.11)
+		(end 15.61 6.11)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8be4e1a8-292a-4982-ae5f-034df28258e7")
+	)
+	(fp_rect
+		(start -15.75 -6.25)
+		(end 15.75 6.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e890633d-28a6-408b-89af-f84554ce0e0e")
+	)
+	(fp_rect
+		(start -15.5 -6)
+		(end 15.5 6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "5ab45860-1978-4d1b-a7cb-00896786c6b7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e71eb872-72c1-4cec-8a07-4a6414ad16d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -13.75 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1224cf07-ca27-43aa-94fb-f1d092e2faac")
+	)
+	(pad "1" thru_hole circle
+		(at 13.75 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b940b24d-4386-44a2-819e-3566a4917521")
+	)
+	(model "${KIPRJMOD}/lib/3d/cap_ECQUAAF155K.stp"
+		(offset
+			(xyz -13.75 0 -0.11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
