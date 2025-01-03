@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ACDC_TUNS700F")(type "KiCad")(uri "${KIPRJMOD}/lib/ACDC_TUNS700F.pretty")(options "")(descr ""))
+)
